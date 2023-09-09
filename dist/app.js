@@ -8,7 +8,7 @@ const node_crypto_1 = __importDefault(require("node:crypto"));
 const cors_1 = __importDefault(require("cors"));
 const movies_json_1 = __importDefault(require("./movies.json"));
 const movies_1 = require("./schemas/movies");
-const PORT = process.env[2] ?? 3000;
+const PORT = process.env.PORT ?? 3000;
 const app = (0, express_1.default)();
 // Solucion a CORS Y CORS-PREFLIGHT con la dependencia cors
 app.use((0, cors_1.default)({

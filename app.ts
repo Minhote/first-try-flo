@@ -4,7 +4,7 @@ import cors from "cors";
 import moviesJSON from "./movies.json";
 import { validateSchema, validateSchemaPatch } from "./schemas/movies";
 
-const PORT = process.env[2] ?? 3000;
+const PORT = process.env.PORT ?? 3000;
 const app = express();
 // Solucion a CORS Y CORS-PREFLIGHT con la dependencia cors
 app.use(
