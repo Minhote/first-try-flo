@@ -1,8 +1,8 @@
 {
   "name": "flo-first-try",
   "version": "1.0.0",
-  "description": "./dist/app.js",
-  "main": "",
+  "description": "",
+  "main": "./dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
